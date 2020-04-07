@@ -1,0 +1,19 @@
+{
+  "name": "covid-photog-resources",
+  "version": "1.0.0",
+  "description": "Photography resources",
+  "dependencies": {},
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^2.1.0",
+    "cross-env": "^7.0.2",
+    "cssnano": "^4.1.10",
+    "parcel-plugin-clean-dist": "0.0.6",
+    "tailwindcss": "^1.2.0"
+  },
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development npx parcel src/index.html",
+    "build": "cross-env NODE_ENV=production npx parcel build src/index.html"
+  },
+  "author": "Aydin Hassan <aydin@hotmail.co.uk>",
+  "license": "MIT"
+}
