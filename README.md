@@ -1,12 +1,12 @@
-# PHOLEARN-19
+# Picdemic
 Free & discounted photography resources during COVID-19 and a bunch of high quality YouTube channels.
 
 
 ## Running locally
 
 ```bash
-git clone git@github.com:AydinHassan/pholearn-19.git
-cd pholearn-19
+git clone git@github.com:AydinHassan/picdemic.git
+cd picdemic
 npm install
 npm run dev
 ```
